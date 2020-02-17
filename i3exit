@@ -2,7 +2,7 @@
 # /usr/bin/i3exit
 
 # with openrc use loginctl
-[[ $(cat /proc/1/comm) == "systemd" ]] && logind=systemctl || logind=loginctl
+[ "$(cat /proc/1/comm)" = "systemd" ] && logind=systemctl || logind=loginctl
 
 case "$1" in
     lock)
