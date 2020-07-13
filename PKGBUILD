@@ -13,7 +13,7 @@ depends=('i3-wm'
     'imagemagick')
 optdepends=('lightdm-gtk-greeter: switch user with lightdm')
 source=("$pkgname")
-md5sums=('6052962bd441aa1f023c81e60a3a5580')
+md5sums=('7efe8a07db38effea294b9e3ddaa898f')
 
 pkgver() {
 	date +'%Y%m%d'
